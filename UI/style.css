@@ -182,7 +182,7 @@ aside {
 }
 /* Start Footer Style */
 footer {
-    background-color: #6991AC;
+    /* background-color: #6991AC; */
     width: 100%;
 }
 .social {
@@ -264,4 +264,47 @@ footer.second p {
         width: 100%;
     }
   
+}
+/* LOGIN SIGN UP FORM STYLE*/
+
+.container-form{
+    background-color: #f1aa90;
+    margin-top:2%;
+    /*margin-bottom:%;*/
+    
+}
+form {
+    padding: 7% 0 7% 7%;
+    margin:0 auto;
+    width: 300px;
+}
+input {
+    margin-bottom: 3px;
+    padding: 10px;
+    width: 100%
+    border: 1px solid #000;
+}
+button {
+    padding: 10px;
+}button:hover {
+    padding: 10px;
+    background-color: #6991AC;
+}
+label {
+    cursor: pointer;
+}
+#form-msg {
+    color: #6991AC;
+}
+#form-switch {
+    display: none;
+}
+#register-form {
+    display: none;
+}
+#form-switch:checked~#register-form {
+    display: block;
+}
+#form-switch:checked~#login-form {
+    display: none;
 }
